@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node local.js",
-    "deploy": "serverless deploy"
+    "deploy": "serverless deploy",
+    "lint": "eslint ./src/** ./lambda.js ./local.js",
+    "lint:fix": "eslint ./src/** ./lambda.js ./local.js --fix"
   },
   "keywords": [],
   "author": "Jalpio",
@@ -16,6 +18,12 @@
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1",
     "serverless": "^1.50.1"
   }
 }
