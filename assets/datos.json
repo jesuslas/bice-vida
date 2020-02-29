@@ -1,0 +1,53 @@
+{
+    "message": "Go Serverless v1.0! Your function executed successfully!",
+    "policy": {
+    "workers": [
+    {
+    "age": 65,
+    "childs": 2
+    },
+    {
+    "age": 68,
+    "childs": 2
+    },
+    {
+    "age": 41,
+    "childs": 4
+    },
+    {
+    "age": 43,
+    "childs": 4
+    },
+    {
+    "age": 49,
+    "childs": 3
+    },
+    {
+    "age": 42,
+    "childs": 0
+    },
+    {
+    "age": 44,
+    "childs": 3
+    },
+    {
+    "age": 52,
+    "childs": 0
+    },
+    {
+    "age": 61,
+    "childs": 2
+    },
+    {
+    "age": 44,
+    "childs": 0
+    },
+    {
+    "age": 25,
+    "childs": 4
+    }
+    ],
+    "has_dental_care": false,
+    "company_percentage": 90
+    }
+    }
