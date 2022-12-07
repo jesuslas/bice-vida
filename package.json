@@ -24,6 +24,6 @@
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
     "prettier": "^1.19.1",
-    "serverless": "^1.50.1"
+    "serverless": "^3.25.1"
   }
 }
